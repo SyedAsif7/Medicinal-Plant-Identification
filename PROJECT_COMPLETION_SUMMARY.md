@@ -187,4 +187,3 @@ The Medicinal Plant AI Classifier project is **fully completed** and ready for u
 
 ---
 *Project completed by Snehal H. Pimple*
-*February 14, 2026*
