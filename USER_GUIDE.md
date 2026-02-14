@@ -243,4 +243,3 @@ python test_project.py path/to/image.jpg
 
 ---
 *For technical documentation, see PROJECT_DOCUMENTATION.md*
-*Made with 🌿 and AI*
