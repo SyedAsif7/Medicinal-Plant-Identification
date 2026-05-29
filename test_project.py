@@ -23,8 +23,10 @@ def test_image(img_path):
     print(f"Testing image: {img_path}")
     
     # Load model
+    print("Loading model (this may take a while)...")
     try:
         model = tf.keras.models.load_model("medicinal_plant_classifier.h5")
+        print("Model loaded successfully.")
     except Exception as e:
         print(f"Error loading model: {e}")
         return

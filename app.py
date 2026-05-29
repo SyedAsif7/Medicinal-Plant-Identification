@@ -18,7 +18,6 @@ st.markdown(get_custom_css(), unsafe_allow_html=True)
 
 def render_sidebar():
     """Render the sidebar content"""
-    st.sidebar.image("https://img.icons8.com/color/96/000000/potted-plant.png", width=100)
     st.sidebar.title("Medicinal Plant AI")
     st.sidebar.markdown("---")
     st.sidebar.info(
@@ -39,7 +38,7 @@ def render_sidebar():
     st.sidebar.markdown("---")
     st.sidebar.markdown("### ℹ️ About")
     st.sidebar.caption(
-        "This tool uses a Convolutional Neural Network (CNN) "
+        "This tool uses a Convolutional Network (CNN) "
         "trained on thousands of plant images to assist in identification."
     )
     st.sidebar.markdown("---")
